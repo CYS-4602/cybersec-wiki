@@ -347,3 +347,17 @@ code {
         font-size: 1.15rem;
     }
 }
+
+/* Navigation scroll effect */
+
+.site-header {
+    transition: box-shadow 0.25s ease;
+}
+
+.site-header.scrolled {
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.25);
+}
+
+section[id] {
+    scroll-margin-top: 100px;
+}
