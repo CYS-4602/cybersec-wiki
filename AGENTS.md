@@ -29,11 +29,26 @@ AI 在新增或修改網站內容時，必須遵守本文件的規範，確保�
 ## 3. Project Structure
 
 所有檔案必須按照以下結構建立：
+```text
+cybersec-wiki/
+├── AGENTS.md
+├── README.md
+├── index.html
+├── css/
+│   └── style.css
+├── js/
+│   └── main.js
+├── pages/
+│   ├── linux/
+│   │   └── ssh-security.html
+│   ├── web/
+│   │   └── sql-injection.html
+│   └── cloud/
+│       └── iam-security.html
+└── assets/
+    └── images/
+```
 
-<box border radius="lg" padding={3} gap={2}>
-  <row justify="between" align="center">
-    <text color="secondary" weight="medium" size="xs">Markdown 原始內容（包含程式碼區塊符號）</text>
-    <button color="secondary" variant="outline" size="sm" onClick={()=>GenUI.copy("```text\ncybersec-wiki/\n├── AGENTS.md\n├── README.md\n├── index.html\n├── css/\n│   └── style.css\n├── js/\n│   └── main.js\n├── pages/\n│   ├── linux/\n│   │   └── ssh-security.html\n│   ├── web/\n│   │   └── sql-injection.html\n│   └── cloud/\n│       └── iam-security.html\n└── assets/\n    └── images/\n```")}>
 
 規則：
 
